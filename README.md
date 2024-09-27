@@ -1,5 +1,3 @@
-from src.Constants.constants import NOISE_LEVELfrom src.Constants.constants import AMPLITUDE
-
 # Efficient Data Stream Anomaly Detection
 
 As part of the project, a continuous stream of floating-point values will be generated to mimic real-time measurements. An anomaly detection algorithm will be implemented to find anomalies in the data, and real-time results will be visualized that provide user interaction and robust error handling.
@@ -55,7 +53,7 @@ python main.py
 You can modify the parameters of the data stream anomaly detection algorithm or the continuous data stream generation by providing values through the command line. If no values are provided, the default parameters will be used. Here’s an example of how to pass the parameters via the command line:
 
 ```sh
-python main.py --amplitude 15 --window_size 5 --noise_level 3.0
+python main.py --amplitude 15 --window_size 5 --noise_level 3
 ```
 OR
 
